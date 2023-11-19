@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["blog-testing-42-509052fff126.herokuapp.com", "localhost", "127.0.0.1"]
 
